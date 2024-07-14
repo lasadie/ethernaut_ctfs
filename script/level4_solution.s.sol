@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../src/level4.sol";
+import { Telephone } from  "../src/level4.sol";
 import "forge-std/Script.sol";
 import "forge-std/console.sol";
 

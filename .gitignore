@@ -14,16 +14,14 @@ docs/
 # Dotenv file
 .env
 
+# fuzzing files
+src/fuzzing.sol
+test/fuzzing.t.sol
 
-# Script files
-script/level6_solution.s.sol
-script/level7_solution.s.sol
-script/level8_solution.s.sol
-script/level9_solution.s.sol
+# extra oponzeppelin contracts
+lib/oponzeppelin-contract-06/
+helpers/
 
-
-# Src files
-src/level6.sol
-src/level7.sol
-src/level8.sol
-src/level9.sol
+# others
+crytic-export/
+notepad.md

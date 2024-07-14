@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "../src/level5.sol";
+import { Token } from "../src/level5.sol";
 import "forge-std/Script.sol";
 import "forge-std/console.sol";
 

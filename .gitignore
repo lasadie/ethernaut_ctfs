@@ -19,7 +19,7 @@ src/fuzzing.sol
 test/fuzzing.t.sol
 
 # extra oponzeppelin contracts
-lib/oponzeppelin-contract-06/
+lib/openzeppelin-contract-06/
 helpers/
 
 # others

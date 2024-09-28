@@ -27,7 +27,7 @@ Repo for Ethernaut's CTFs solutions, answers are in script folder. Tested with F
 | Dex                | ✅        |
 | Dex Two            | ✅        |
 | Puzzle Wallet      | ✅        |
-| Motorbike          | ❌        |
+| Motorbike          | ✅        |
 | DoubleEntryPoint   | ❌        |
 | Good Samaritan     | ❌        |
 | Gatekeeper Three   | ❌        |
